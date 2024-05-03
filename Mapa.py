@@ -11,14 +11,9 @@ st.set_page_config(page_title="Seu Título Aqui", page_icon=":chart_with_upwards
 st.markdown(
     """
     <style>
-    .css-1aumxhk {
+    body {
         color: black;
-    }
-    .css-1jq4dd8 {
         background-color: #f0f0f0;
-    }
-    .css-j8zgcv {
-        background-color: #ffffff;
     }
     </style>
     """,
