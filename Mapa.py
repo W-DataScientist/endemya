@@ -4,10 +4,31 @@ import plotly.express as px
 import plotly.colors as colors
 import plotly.graph_objects as go
 
+# Template como claro
+st.set_page_config(page_title="Seu Título Aqui", page_icon=":chart_with_upwards_trend:")
+
+# Define as cores para o tema claro
+st.markdown(
+    """
+    <style>
+    .css-1aumxhk {
+        color: black;
+    }
+    .css-1jq4dd8 {
+        background-color: #f0f0f0;
+    }
+    .css-j8zgcv {
+        background-color: #ffffff;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 # Carrega os dados dos bairros em um DataFrame
 data = pd.read_csv("base.csv")
 
-# Mapeia o nome do tipo de endemia para o nome da coluna correspondente no DataFrame
+# Mapeia o nome do tipo de virus para o nome da coluna correspondente no DataFrame
 disease_mapping = {
     "Dengue": "DENGUE",
     "Chikungunya": "CHIKUNGUNYA",
@@ -20,7 +41,7 @@ disease_name = st.sidebar.selectbox("Tipo de vírus", list(disease_mapping.keys(
 # Obtém o nome da coluna correspondente no DataFrame
 disease_column = disease_mapping[disease_name]
 
-# Filtra os dados para o tipo de endemia selecionado
+# Filtra os dados para o tipo de virus selecionado
 filtered_data = data[data[disease_column] > 0]
 
 # Define as cores personalizadas
