@@ -39,8 +39,8 @@ fig.update_layout(margin=dict(l=0, t=0, r=0, b=0))
 # Define a cor do texto dos nomes dos bairros como preto
 fig.update_traces(textfont_color="black", marker=dict(opacity=0.5)) # Ajusta a opacidade das bolhas
 
-# Adiciona um título acima do mapa
-st.title(f"Casos de {disease_name} em 2023")
+# Adiciona um título acima do mapa com o tamanho da fonte reduzido
+st.subheader(f"Casos de {disease_name} em Brejo Santo-CE no ano de 2023")
 
 # Exibe a visualização na interface
 st.plotly_chart(fig)
