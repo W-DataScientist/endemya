@@ -5,20 +5,7 @@ import plotly.colors as colors
 import plotly.graph_objects as go
 
 # Template como claro
-st.set_page_config(page_title="Seu Título Aqui", page_icon=":chart_with_upwards_trend:")
-
-# Define as cores para o tema claro
-st.markdown(
-    """
-    <style>
-    body {
-        color: black;
-        background-color: #f0f0f0;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
+st.set_page_config(page_title="Seu Título Aqui", page_icon=":chart_with_upwards_trend:", layout="wide", initial_sidebar_state="expanded")
 
 # Carrega os dados dos bairros em um DataFrame
 data = pd.read_csv("base.csv")
