@@ -1,22 +1,22 @@
-PSF,lat,lon,DENGUE,CHIKUNGUNYA,ZIKA
-Alto da bela vista,-7.49293,-38.99191,90,12,
-Morro dourado 1,-7.4740,-38.9778,43,01,
-Morro dourado 2,-7.4767, -38.9795500,52,0
-São Francisco 1,-7.4941,-38.9813,81,03,
-São Francisco 2,-7.4894,-38.9810,121,09,
-Renê Lucena 1,-7.4881,-39.0005,257,18,
-Renê Lucena 2,-7.4829, -39.0043,154,04,
-Araujão,-7.4853,-38.9887,118,05,
-São Felipe,-7.4535,-39.0721,58,04,
-N. S. de Fátima,-7.4976,-38.9863,60,03,
-Coração de Jesus,-7.49349, -38.98779,93,03,
-Luzia Leite,-7.48849,-38.99054,63,01,
-Vieira,-7.4412, -38.9370,39,04,
-Coração de Maria,-7.4446, -38.9545,44,02,
-Lagoa do Mato 1,-7.5200, -38.9927,43,03,
-Lagoa do Mato 2,-7.5208, -38.9949,130,04,
-Poço,-7.5504, -38.8363,48,06,
-Sant. Sacramento,-7.4897, -38.9943,108,00,
-São Sebastião,-7.4702, -38.9364,100,04,
-Vila da conceição,-7.4568, -38.9935,79,02,
+PSF,lat,lon,DENGUE,CHIKUNGUNYA,ZIKA,MES,DENGUE-2023,CHIKUNGUNYA-2023,ZIKA-2023
+Alto da bela vista,-7.49293,-38.99191,90,12,0,JANEIRO,110,28,00
+Morro dourado 1,-7.4740,-38.9778,43,01,0,FEVEREIRO,116,16,00
+Morro dourado 2,-7.4767, -38.9795500,52,00,0,MARÇO,337,05,00
+São Francisco 1,-7.4941,-38.9813,81,03,0,ABRIL,343,09,00
+São Francisco 2,-7.4894,-38.9810,121,09,0,MAIO,332,11,00
+Renê Lucena 1,-7.4881,-39.0005,257,18,0,JUNHO,173,06,00
+Renê Lucena 2,-7.4829, -39.0043,154,04,0,JULHO,97,06,00
+Araujão,-7.4853,-38.9887,118,05,0,AGOSTO,68,04,00
+São Felipe,-7.4535,-39.0721,58,04,0,SETEMBRO,53,04,00
+N. S. de Fátima,-7.4976,-38.9863,60,03,0,OUTUBRO,72,00,00
+Coração de Jesus,-7.49349, -38.98779,93,03,0,NOVEMBRO,31,00,00
+Luzia Leite,-7.48849,-38.99054,63,01,0,DEZEMBRO,39,00,00
+Vieira,-7.4412, -38.9370,39,04,0,
+Coração de Maria,-7.4446, -38.9545,44,02,0,
+Lagoa do Mato 1,-7.5200, -38.9927,43,03,0,
+Lagoa do Mato 2,-7.5208, -38.9949,130,04,0,
+Poço,-7.5504, -38.8363,48,06,0,
+Sant. Sacramento,-7.4897, -38.9943,108,00,0,
+São Sebastião,-7.4702, -38.9364,100,04,0,
+Vila da conceição,-7.4568, -38.9935,79,02,0,
 
