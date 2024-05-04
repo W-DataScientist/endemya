@@ -31,12 +31,12 @@ color_scale = colors.diverging.RdYlGn_r
 
 # Cria a visualização com Plotly Express
 fig_map = px.scatter_mapbox(filtered_data, lat="lat", lon="lon", color=disease_column, size=disease_column,
-                        color_continuous_scale=color_scale, size_max=30, zoom=10.8,
+                        color_continuous_scale=color_scale, size_max=30, zoom=11.3,
                         hover_name="PSF", hover_data=[disease_column],
                         text="PSF",  # Define o texto que aparecerá ao passar o mouse sobre a bolha
                         mapbox_style="carto-positron",  # Define o estilo do mapa como carto-positron
-                        width=800, height=600,  # Define a largura e altura do mapa
-                        center=dict(lat=-7.5053, lon=-38.9594))  # Define o centro do mapa para Brejo Santo, Ceará
+                        width=1100, height=600,  # Define a largura e altura do mapa
+                        center=dict(lat=-7.5037, lon=-38.9503))  # Define o centro do mapa para Brejo Santo, Ceará
 
 # Ajusta as margens para remover o excesso de espaço
 fig_map.update_layout(margin=dict(l=0, t=0, r=0, b=0))
